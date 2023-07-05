@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar component matches snapshot 1`] = `
+<DocumentFragment>
+  <aside
+    class="sidebar"
+  >
+    <div
+      class="logo"
+    >
+      <svg>
+        Mocked Info SVG
+      </svg>
+    </div>
+    <div
+      class="sideLinks"
+    >
+      <div>
+        <span
+          class="activePage"
+        >
+          <svg>
+            Mocked Info SVG
+          </svg>
+          <p>
+            Dashboard
+          </p>
+        </span>
+        <ul>
+          <li>
+            <svg>
+              Mocked Info SVG
+            </svg>
+            <p>
+              Item 1
+            </p>
+          </li>
+          <li>
+            <svg>
+              Mocked Info SVG
+            </svg>
+            <p>
+              Item 2
+            </p>
+          </li>
+          <li>
+            <svg>
+              Mocked Info SVG
+            </svg>
+            <p>
+              Item 3
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span>
+          Others1
+        </span>
+        <ul>
+          <li>
+            <svg>
+              Mocked Info SVG
+            </svg>
+            <p>
+              Item 4
+            </p>
+          </li>
+          <li>
+            <svg>
+              Mocked Info SVG
+            </svg>
+            <p>
+              Item 5
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span>
+          Other2
+        </span>
+        <ul>
+          <li>
+            <svg>
+              Mocked Info SVG
+            </svg>
+            <p>
+              Item 7
+            </p>
+          </li>
+          <li>
+            <svg>
+              Mocked Info SVG
+            </svg>
+            <p>
+              Item 8
+            </p>
+          </li>
+          <li>
+            <svg>
+              Mocked Info SVG
+            </svg>
+            <p>
+              Item 9
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="profile"
+    >
+      <img
+        alt="a dark skin woman"
+        src="[object Object]"
+      />
+      <p>
+        Blessing Daniels
+      </p>
+      <svg>
+        Mocked Info SVG
+      </svg>
+    </div>
+  </aside>
+</DocumentFragment>
+`;

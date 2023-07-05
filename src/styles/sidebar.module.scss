@@ -1,0 +1,69 @@
+@import 'variables';
+
+.sidebar {
+    width: 20vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 60% 25%;
+    justify-content: center;
+    border-right: 1px solid $border-color;
+    font-size: 0.75rem;
+
+    .logo {
+        align-self: end;
+    }
+
+    div {
+        align-self: center;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            display: flex;
+            gap: 1rem;
+            padding-bottom: 10px;
+
+            svg {
+                width: 1rem;
+                height: 1rem;
+            }
+        }
+    }
+
+    .sideLinks {
+        justify-self: start;
+
+        div {
+            .activePage {
+                display: flex;
+                gap: 1rem;
+
+                p {
+                    color: $active-color;
+                }
+            }
+
+            span {
+                display: inline-block;
+                padding-top: 10px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: space-between;
+        width: 100%;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import 'variables';
+
+.header {
+    width: 100%;
+
+    .dashBoardHeader {
+        display: inline-block;
+        padding-top: 2rem;
+        height: 4.25rem;
+        color: $dark-text;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            .greeting {
+                color: $dark-text;
+                font-weight: 700;
+                font-size: 1.2rem;
+                line-height: 2rem;
+            }
+
+            .summary {
+                color: $gray-text;
+                font-weight: 400;
+                font-size: 0.75rem;
+                padding-top: 10px;
+            }
+        }
+
+        a {
+            color: $active-color;
+            font-size: 0.75rem;
+        }
+    }
+}
