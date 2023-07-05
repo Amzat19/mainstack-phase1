@@ -4,61 +4,60 @@ import '@testing-library/jest-dom';
 
 jest.mock('../assets/mainstack-logo.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked Mainstack SVG</svg>,
   };
 });
 
 jest.mock('../assets/dashboard.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked Dashboard SVG</svg>,
   };
 });
 
 jest.mock('../assets/edit.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked Edit SVG</svg>,
   };
 });
 
 jest.mock('../assets/hourglass_empty.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked Hour glass SVG</svg>,
   };
 });
 
 jest.mock('../assets/add_a_photo.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked camera SVG</svg>,
   };
 });
 jest.mock('../assets/delete.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked delete SVG</svg>,
   };
 });
 jest.mock('../assets/subscriptions.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked subscriptions SVG</svg>,
   };
 });
 jest.mock('../assets/file_present.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked file SVG</svg>,
   };
 });
 
 jest.mock('../assets/alarm.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked alarm SVG</svg>,
   };
 });
 
 jest.mock('../assets/more_horiz.svg', () => {
   return {
-    ReactComponent: () => <svg>Mocked Info SVG</svg>,
+    ReactComponent: () => <svg>Mocked ellipses SVG</svg>,
   };
 });
-
 
 
 describe('SideBar component', () => {
